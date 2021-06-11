@@ -8,8 +8,7 @@ function removePhoto(photo){
     document.getElementById(photo).style.opacity = "0%";
 }
 
-// let x = document.getElementById("x");
-// x.addEventListener("mouseover",viewPhoto("zanepx"));
+
 let x = document.getElementById("x");
 x.addEventListener("mouseover",function(){viewPhoto("zanepx")});
 let zanepx = document.getElementById("zanepx");
