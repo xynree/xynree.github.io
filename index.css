@@ -1,0 +1,87 @@
+* {
+    cursor: none;
+}
+
+@font-face {
+    font-family: "Source";
+    src: ("./source.ttf");
+  }
+
+.p5 {
+    position: fixed;
+
+}
+
+body {
+    margin: 0;
+}
+.text {
+
+    position: fixed;
+    height: auto;
+    width: auto;
+    top: 36%;
+    right: 20%;
+    z-index: 500;
+    font-family: "Source";
+    color: rgb(92, 119, 153);
+
+}
+
+a {
+    color: rgb(50, 39, 197);
+    text-decoration:dotted;
+  }
+
+a:hover {
+    color: hotpink;
+}
+
+h1 {
+    font-size: 76pt;
+    font-weight: 600;
+    color: rgb(92, 119, 153);
+}
+
+
+#place:hover, #x:hover, #cleo:hover, h1:hover {
+    color: hotpink;
+
+}
+
+
+#place, #cleo {
+    color: rgb(50, 39, 197);
+
+}
+
+#zanepx, #cleopx, #tonasketpx {
+    opacity: 0%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 50;
+    transition: opacity 0.2s;
+    transition-timing-function: ease-in-out;
+
+}
+
+#zanepx {
+    background-image: url("./IMG_0394.jpg");
+    width: 280px;
+    height: 200px;
+}
+
+
+#cleopx {
+    background-image: url("./IMG_4065.jpg");
+    width: 200px;
+    height: 200px;
+
+}
+
+#tonasketpx {
+    background-image: url("./IMG_3773.jpg");
+    width: 100px;
+    height: 300px;
+}
