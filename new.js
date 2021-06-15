@@ -1,6 +1,6 @@
 function viewPhoto(photo){
     photo = document.getElementById(photo);
-    photo.setAttribute("style", `opacity: 70%; top: ${Math.random()*200}px; left: ${Math.random()*800}px;`);
+    photo.setAttribute("style", `opacity: 85%; top: ${Math.random()*200}px; left: ${Math.random()*800}px;`);
 
 }
 
